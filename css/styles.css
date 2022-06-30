@@ -1,0 +1,411 @@
+/* COLORES GENERALES */
+.css-blue {
+    background-color: rgb(75, 186, 223);
+}
+
+.python-blue {
+    background-color: rgb(40, 113, 138);
+}
+
+.busuu-blue {
+    background-color: #116AE8;
+}
+
+.js-yellow {
+    /* #FFDF00 */
+    background-color: #e0d20a;
+}
+
+.brain-pink {
+    background-color: pink;
+}
+/* ENCABEZADO */
+#header {
+    color: #ccc;
+}
+
+.navbar-brand span {
+    color: green;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: green;
+}
+
+.arrow {
+    color: green;
+}
+
+.logo {
+    float: left;
+    margin-left: 40px;
+}
+
+.logo h1 {
+    line-height: 50px;
+    font-size: xx-large;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-right: 100px;
+}
+
+.menu ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #ccc;
+    padding-right: 20px;
+}
+.menu ul li a:hover{
+    color: white;
+}
+
+#header-wrap {
+    width: 100%;
+    background-color: black;
+}
+
+.header-content {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.texto-encima {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.texto-encima h2 {
+    color: #198754;
+    margin-bottom: 10px;
+}
+
+.header-content .img-programming {
+    margin-top: 25px;
+    width: 100%;
+    opacity: 30%;
+    overflow: hidden;
+}
+
+.img-perfil {
+    width:200px;
+    height:200px;
+    border-radius:150px;
+    border:5px solid #666;
+}
+
+/* FIN DEL ENCABEZADO */
+
+/* INICIO DEL CONTENIDO PRINCIPAL */
+
+#main-container {
+    margin: 100px auto;
+    width: 80%;
+}
+
+#main-container .about{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.texto-separado {
+    font-size: 26px;
+    opacity: .9;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.introduction-container h5 {
+    width: 90%;
+}
+
+.introduction-container p {
+    text-align: justify;
+    width: 90%;
+}
+
+.introduction-container a button img {
+    margin-top: -5px;
+    margin-left: -5px;
+    width: 20px; 
+}
+
+.skills-container h4 {
+    margin-bottom: 2rem;
+}
+
+.skills-container div {
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.skills-container .img-skill {
+    height: 4rem;
+}
+
+.skills-container div p{
+    text-align: center;
+}
+
+.carousel {
+    width: 80%;
+}
+
+.carousel-item a{
+    overflow: hidden;
+    height: 20rem;
+}
+
+.carousel-item a p {
+    font-size: smaller;
+    /* background-color: rgba(204, 204, 204, 0.35);
+    color: black; */
+    font-weight: bold;
+}
+
+.carousel-item a img {
+    display: block;
+    margin: 110px auto;
+    width: 5rem;
+}
+
+.cursos ul li a,
+.certificaciones ul li a {
+    text-decoration: none;
+    color: green;
+}
+
+.cursos ul li a:hover,
+.certificaciones ul li a:hover {
+    color: black;
+}
+
+.cursos, 
+.certificaciones {
+    margin-top: 50px;
+}
+
+.cursos h4, 
+.certificaciones h4 {
+    margin-bottom: 1rem;
+}
+
+.portafolio-container {
+    margin-top: 100px;
+}
+
+/* INICIO DE CARRUSEL DE PROYECTOS*/
+h4, h2,small,a{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Carousel{
+    width: 100%;
+}
+
+.slick-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 304px;
+    padding: 10px 0px;
+    max-width: 90vw;
+    overflow: hidden;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+.slick{
+    position: relative;
+    width: 275px;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+.slick h4{
+    position: absolute;
+    z-index: 1;
+    font-size: 22px;
+    line-height: 23px;
+    color: #fff;
+    padding: 15px;
+}
+
+.slick h4 small{
+    font-size: 15px;
+    display: block;
+}
+
+.slick a img{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+    transition: .3s ease-in-out;
+}
+.slick a img:hover{
+    opacity: .85;
+}
+
+.slick-arrow{
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    border: 0;
+    cursor: pointer;
+}
+.slick-arrow:focus{
+    outline: 0;
+}
+.slick-arrow svg{
+    width: 12px;
+    height: 100%;
+    color: rgba(0,0,0,.7);
+}
+.slick-prev{
+    left: 0px;
+}
+.slick-next{
+    right: 0px;
+}
+/* FIN CARRUSEL DE PROYECTOS */
+/* FIN DEL CONTENIDO PRINCIPAL */
+
+
+/* PIE DE PÁGINA */
+
+#footer {
+    margin-bottom: -17px;
+    width: 100%;
+    background-color: #ccc;
+}
+
+#footer ul li{
+    list-style: none;
+    display: inline;
+}
+
+#footer ul li a{
+    color: white;
+    line-height: 3rem;
+    text-decoration: none;
+}
+
+#footer .wrap-footer {
+    margin: 0px auto;
+    width: 80%;
+}
+
+#footer .wrap-footer .creditos{
+    margin: 0px auto;
+    width: fit-content;
+    height: 3.2rem;
+}
+
+.enlaces-medios ul li a img {
+    width: 3rem;
+}
+
+.contacto a h3 {
+    padding-top: 15px;
+}
+
+.creditos a {
+    color: green;
+}
+
+
+/* FIN DEL PIE DE PÁGINA */
+
+
+/* RESPONSIVE */
+@media (max-width: 990px) {
+    .skills-container h4 {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 776px) {
+    .header-content {
+        height: 35rem;
+        overflow: hidden;
+    }
+
+    .header-content .img-programming {
+        width: 340%;
+    }
+
+    .introduction-container p {
+        text-align: justify;
+        width: 100%;
+    }
+    
+    .introduction-container h5 {
+        width: 100%;
+    }
+
+    .skills-container div {
+        display: inline-block;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+}
+
+@media (max-width: 414px) {
+    #footer {
+        margin-bottom: -17px;
+        width: 100%;
+        height: 20rem;
+        background-color: rgb(204, 204, 204);
+    }
+    carousel-item a div h5 {
+        display: block;
+        width: 10px;
+        font-size: 0.25rem;
+    }
+}
+
