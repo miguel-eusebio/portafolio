@@ -19,6 +19,11 @@
 .brain-pink {
     background-color: pink;
 }
+
+.solid-yellow {
+    background-color: #F0C48A;
+}
+
 /* ENCABEZADO */
 #header {
     color: #ccc;
