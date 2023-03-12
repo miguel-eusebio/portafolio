@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
+    <link rel="shortcut icon" href="./css/img/briefcase.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
 </head>
 
 <body>
@@ -139,7 +141,7 @@
                 <h4 class="title">Cursos que estoy aprendiendo</h4>
                 <div id="carrusel-cursos" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active python-blue">
+                        <div class="carousel-item active python-background">
                             <a href="https://www.udemy.com/course/100-days-of-code/" class="d-block">
                                 <img src="./css/img/python.png" class="d-block" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
@@ -148,7 +150,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="carousel-item js-yellow">
+                        <div class="carousel-item js-background">
                             <a href="https://www.udemy.com/course/master-en-javascript-aprender-js-jquery-angular-nodejs-y-mas/" class="d-block">
                                 <img src="./css/img/js.png" class="d-block" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
@@ -254,47 +256,84 @@
                             </svg>
                         </button>
                         <div class="slick-track" id="track">
-                            <div class="slick">
-                                <div>
-                                    <a href="https://miguel-eusebio.github.io/diceGame/">
-                                        <h4><small>Dice Game</small>Pulsa para ver</h4>
-                                        <picture>
-                                            <img src="./css/img/proyectos/dice_game.png" alt="Image">
-                                        </picture>
-                                    </a>
+                            <div class="card">
+                                <div class="content">
+                                  <div class="img js-background">
+                                    <img src="./css/img/proyectos/dice.png" alt="Dados">
+                                  </div>
+                                  <div class="details">
+                                    <div class="name">Juego de Dados</div>
+                                    <div class="language js-font">JavaScript</div>
+                                  </div>
+                                  <div class="media-icons">
+                                    <a class="js-background" title="GitHub" href="https://github.com/miguel-eusebio/diceGame"><i class="fab fa-github"></i></a>
+                                    <a class="js-background" title="Jugar Online" href="https://miguel-eusebio.github.io/diceGame/"><i class="fab fa-google-play"></i></a>
+                                  </div>
                                 </div>
                             </div>
-                            <div class="slick">
-                                <div>
-                                    <a href="https://miguel-eusebio.github.io/drumKit/">
-                                        <h4><small>Drum Kit</small>Pulsa para ver</h4>
-                                        <picture>
-                                            <img src="./css/img/proyectos/drumkit.png" alt="Image">
-                                        </picture>
-                                    </a>
+                            <div class="card">
+                                <div class="content">
+                                  <div class="img js-background">
+                                    <img src="./css/img/proyectos/drum-set.png" alt="Batería Musical">
+                                  </div>
+                                  <div class="details">
+                                    <div class="name">Batería Musical</div>
+                                    <div class="language js-font">JavaScript</div>
+                                  </div>
+                                  <div class="media-icons">
+                                    <a class="js-background" title="GitHub" href="https://github.com/miguel-eusebio/drumKit"><i class="fab fa-github"></i></a>
+                                    <a class="js-background" title="Jugar Online" href="https://miguel-eusebio.github.io/drumKit/"><i class="fab fa-google-play"></i></a>
+                                  </div>
                                 </div>
                             </div>
-                            <div class="slick">
-                                <div>
-                                    <a href="https://miguel-eusebio.github.io/simonGame/">
-                                        <h4><small>Simon Game</small>Pulsa para ver</h4>
-                                        <picture>
-                                            <img src="./css/img/proyectos/simon_game.png" alt="Image">
-                                        </picture>
-                                    </a>
+                            <div class="card">
+                                <div class="content">
+                                  <div class="img js-background">
+                                    <img src="./css/img/proyectos/simon-game.png" alt="Juego de Simón">
+                                  </div>
+                                  <div class="details">
+                                    <div class="name">Juego de Simón</div>
+                                    <div class="language js-font">JavaScript</div>
+                                  </div>
+                                  <div class="media-icons">
+                                    <a class="js-background" title="GitHub" href="https://github.com/miguel-eusebio/simonGame"><i class="fab fa-github"></i></a>
+                                    <a class="js-background" title="Jugar Online" href="https://miguel-eusebio.github.io/simonGame/"><i class="fab fa-google-play"></i></a>
+                                  </div>
                                 </div>
                             </div>
-                            <div class="slick">
-                                <div>
-                                    <a href="https://replit.com/@MiguelEusebio/Piedra-papel-o-tijeras#main.py">
-                                        <h4><small>Piedra, papel o tijera</small>Pulsa para ver</h4>
-                                        <picture>
-                                            <img src="./css/img/proyectos/piedra_papel_tijera.png" alt="Image">
-                                        </picture>
-                                    </a>
+                            <div class="card">
+                                <div class="content">
+                                  <div class="img js-background">
+                                    <img src="./css/img/proyectos/planeta.png" alt="Blog Ambiental">
+                                  </div>
+                                  <div class="details">
+                                    <div class="name">Blog Ambiental</div>
+                                    <div class="language js-font">JavaScript</div>
+                                  </div>
+                                  <div class="media-icons">
+                                    <a class="js-background" title="GitHub" href="https://github.com/miguel-eusebio/enviromentBlog"><i class="fab fa-github"></i></a>
+                                    <a class="js-background" title="Jugar Online" href="https://miguel-eusebio.github.io/enviromentBlog/"><i class="fab fa-google-play"></i></a>
+                                  </div>
                                 </div>
                             </div>
-                            <div class="slick">
+                            <div class="card">
+                                <div class="content">
+                                  <div class="img python-background">
+                                    <img src="./css/img/proyectos/rock.png" alt="Piedra, Papel o Tijera">
+                                  </div>
+                                  <div class="details">
+                                    <div class="name">Piedra, Papel o Tijera</div>
+                                    <div class="language python-font">Python</div>
+                                  </div>
+                                  <div class="media-icons">
+                                    <a class="python-background" title="GitHub" href="#"><i class="fab fa-github"></i></a>
+                                    <a class="python-background" title="Jugar Online" href="https://replit.com/@MiguelEusebio/Piedra-papel-o-tijeras#main.py"><i class="fab fa-google-play"></i></a>
+                                    <a class="python-background" title="Descargar" href="https://drive.google.com/uc?id=1Ksugt19RDk0X-28oudbMhtEkHXxduNYO/view&export=download&authuser=0"><i class="fab fa-google-drive"></i></a>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="slick">
                                 <div>
                                     <a href="https://replit.com/@MiguelEusebio/password-generator#main.py">
                                         <h4><small>Password Generator</small>Pulsa para ver</h4>
@@ -303,8 +342,9 @@
                                         </picture>
                                     </a>
                                 </div>
-                            </div>
-                            <div class="slick">
+                            </div> -->
+
+                            <!-- <div class="slick">
                                 <div>
                                     <a href="https://replit.com/@MiguelEusebio/caesar-cipher-4-start#main.py">
                                         <h4><small>Caesar Cipher</small>Pulsa para ver</h4>
@@ -313,16 +353,8 @@
                                         </picture>
                                     </a>
                                 </div>
-                            </div>
-                            <div class="slick">
-                                <div>
-                                    <a href="#">
-                                        <picture>
-                                            <img src="./css/img/proyectos/coming_soon.jpg" alt="Image">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
+                            </div> -->
+
                         </div>
                         <button class="slick-arrow slick-next" id="button-next" data-button="button-next"
                             onclick="app.processingButton(event)">
