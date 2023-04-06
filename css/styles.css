@@ -4,6 +4,7 @@
 :root {
     --js-color: #e0d20a;
     --python-color: rgb(40, 113, 138);
+    --node-color: #7DBE42;
 }
 
 /* COLORES GENERALES */
@@ -38,6 +39,14 @@
 
 .python-font {
     color: var(--python-color);
+}
+
+.node-background {
+    background-color: var(--node-color);
+}
+
+.node-font {
+    color: var(--node-color);
 }
 
 /* ENCABEZADO */
@@ -516,6 +525,12 @@ a{
     color: var(--python-color);
     background-color: #fff;
     border-color: #116AE8;
+}
+
+.media-icons .node-background:hover{
+    color: var(--node-color);
+    background-color: #fff;
+    border-color: rgb(1, 148, 1);
 }
 
   /* @media (max-width: 768px) {
