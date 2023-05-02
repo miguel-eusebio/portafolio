@@ -134,11 +134,19 @@
     overflow: hidden;
 }
 
-.img-perfil {
+.img-perfil_container {
     width:200px;
     height:200px;
     border-radius:150px;
+    margin: 0 auto;
     border:5px solid #666;
+    overflow: hidden;
+}
+
+.img-perfil {
+    margin-left: -11px;
+    margin-top: -20px;
+    width: 200px;
 }
 
 /* FIN DEL ENCABEZADO */
@@ -222,23 +230,23 @@
     width: 5rem;
 }
 
-.cursos ul li a,
+.work-experience ul li a,
 .certificaciones ul li a {
     text-decoration: none;
     color: green;
 }
 
-.cursos ul li a:hover,
+.work-experience ul li a:hover,
 .certificaciones ul li a:hover {
     color: black;
 }
 
-.cursos, 
+.work-experience, 
 .certificaciones {
     margin-top: 50px;
 }
 
-.cursos h4, 
+.work-experience h4, 
 .certificaciones h4 {
     margin-bottom: 1rem;
 }

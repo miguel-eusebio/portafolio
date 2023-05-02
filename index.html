@@ -55,7 +55,10 @@
                 <div class="header-content">
                     <img class="img-programming" src="./css/img/programming.png" alt="">
                     <div class="texto-encima">
-                        <img class="img-perfil" src="./css/img/perfil-avatar.JPG" alt="">
+                        <div class="img-perfil_container">
+                            <img class="img-perfil" src="./css/img/perfil_photo.jpg" alt="">
+                        </div>
+                        
                         <h5>¡Hola!</h5>
                         <h2>Soy Miguel Eusebio</h2>
                         <h5>Programador</h5>
@@ -77,7 +80,7 @@
                 <h4 class="title">¿Quien soy?</h4>
                 <h5 class="mt-3">Soy Miguel Vazquez Eusebio programador autodidacta.</h5>
                 <p class="mt-3">Tengo 23 años y he concluido la licenciatura en Administración de Tecnologías de la Información en la Universidad Insurgentes. Soy un apasionado por temas tecnológicos, videojuegos y fútbol, también me gusta la programación por lo que estoy aprendiendo de forma autodidacta a programar. He desarrollado varios proyectos de frontend, backend y python; sin embargo, le he dedicado más tiempo a proyectos de python y backend porque los encuentro muy interesantes y apasionantes. Hablando del mundo laboral he tenido lo oportunidad de adquirir experiencia laboral en pequeños negocios desde que tengo 15 años, para posteriormente trabajar en algo más formal como lo fue ser auxiliar de oficina en despachos jurídicos.</p>
-                <a href="./css/pdf/curriculum_miguel.pdf">
+                <a href="./css/pdf/curriculum_developer.pdf">
                     <button class="btn btn-success title">
                         <img src="./css/img/cv.png" alt="CV image" class="img-cv">
                         Ver Curriculum Vitae
@@ -135,60 +138,42 @@
                     <img src="./css/img/JQuery.png" alt="skill image" class="img-skill">
                     <p>JQuery</p>
                 </div>
+                <div>
+                    <img src="./css/img/flask.png" alt="skill image" class="img-skill">
+                    <p>Flask</p>
+                </div>
+                <div>
+                    <img src="./css/img/react.png" alt="skill image" class="img-skill">
+                    <p>React</p>
+                </div>
             </div>
 
-            <div class="cursos col-lg-6 col-sm-12">
-                <h4 class="title">Cursos que estoy aprendiendo</h4>
-                <div id="carrusel-cursos" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active python-background">
-                            <a href="https://www.udemy.com/course/100-days-of-code/" class="d-block">
-                                <img src="./css/img/python.png" class="d-block" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Pulsa para ver</h5>
-                                    <p>100 Days of Code: The Complete Python Pro Bootcamp for 2022.</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="carousel-item js-background">
-                            <a href="https://www.udemy.com/course/master-en-javascript-aprender-js-jquery-angular-nodejs-y-mas/" class="d-block">
-                                <img src="./css/img/js.png" class="d-block" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Pulsa para ver</h5>
-                                    <p>Master en JavaScript: Aprender JS, jQuery, Angular, NodeJS.</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="carousel-item css-blue">
-                            <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" class="d-block">
-                                <img src="./css/img/web-link.png" class="d-block" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Pulsa para ver</h5>
-                                    <p>The Complete 2022 Web Development Bootcamp.</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="carousel-item brain-pink">
-                            <a href="https://www.udemy.com/course/master-en-logica-de-programacion-50-ejercicios-y-pruebas-tecnicas/" class="d-block">
-                                <img src="./css/img/brain.png" class="d-block" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Pulsa para ver</h5>
-                                    <p>Master en Lógica de Programación: Pruebas Técnicas de Código.</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-cursos"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carrusel-cursos"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+            <div class="work-experience col-lg-6 col-sm-12">
+
+                <h4 class="title">Experiencia Laboral</h4>
+
+                <h5>Consejo Ciudadano de la CDMX (Noviembre 2022 - Mayo 2023)</h5>
+                <p>Desarrollo de Software y Auxiliar de Soporte Técnico</p>
+                <ul>
+                    <li>Desarrollar aplicaciones con Python.</li>
+                    <li>Mantenimiento a equipos de computo e impresoras (Software y Hardware).</li>
+                </ul>
+
+                <h5>OSG y Asociados (Parte del 2019 y 2021)</h5>
+                <p>Auxiliar de Oficina y Trato directo con clientes.</p>
+                <ul>
+                    <li>Realizar tareas cotidianas de oficina como ordenar, capturar, analizar e imprimir documentos.</li>
+                    <li>Visitar a clientes para recoger documentación que se le había solicitado.</li>
+                    <li>Entregar y recoger documentos en el Registro Nacional de Población.</li>
+                </ul>
+
+                <h5>Local de Ventas (Vacaciones de Invierno 2015 - 2018)</h5>
+                <p>Auxiliar en Ventas Fotograficas.</p>
+                <ul>
+                    <li>Atender a los clientes.</li>
+                    <li>Aseo y limpieza del área de trabajo.</li>
+                    <li>Comprar material requerido.</li>
+                </ul>
             </div>
 
             <div class="certificaciones col-lg-6 col-sm-12">
