@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link rel="shortcut icon" href="./css/img/briefcase.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./css/img/iconos/briefcase.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
@@ -53,10 +53,10 @@
 
             <div id="header-wrap">
                 <div class="header-content">
-                    <img class="img-programming" src="./css/img/programming.png" alt="">
+                    <img class="img-programming" src="./css/img/inicio/programming.png" alt="">
                     <div class="texto-encima">
                         <div class="img-perfil_container">
-                            <img class="img-perfil" src="./css/img/perfil_photo.jpg" alt="">
+                            <img class="img-perfil" src="./css/img/inicio/perfil_photo.jpg" alt="">
                         </div>
                         
                         <h5>¡Hola!</h5>
@@ -76,80 +76,65 @@
             <a name="acerca-de-mi" class="col-12 about">
                 <h3 class="title texto-separado">Acerca de mí</h3>
             </a>
-            <div class="introduction-container col-lg-6 col-sm-12">
+            <section class="introduction-container col-lg-6 col-sm-12">
                 <h4 class="title">¿Quien soy?</h4>
                 <h5 class="mt-3">Soy Miguel Vazquez Eusebio programador autodidacta.</h5>
-                <p class="mt-3">Tengo 23 años y he concluido la licenciatura en Administración de Tecnologías de la Información en la Universidad Insurgentes. Soy un apasionado por temas tecnológicos, videojuegos y fútbol, también me gusta la programación por lo que estoy aprendiendo de forma autodidacta a programar. He desarrollado varios proyectos de frontend, backend y python; sin embargo, le he dedicado más tiempo a proyectos de python y backend porque los encuentro muy interesantes y apasionantes. Hablando del mundo laboral he tenido lo oportunidad de adquirir experiencia laboral en pequeños negocios desde que tengo 15 años, para posteriormente trabajar en algo más formal como lo fue ser auxiliar de oficina en despachos jurídicos.</p>
-                <a href="./css/pdf/curriculum_developer.pdf">
+                <p class="mt-3">Tengo 23 años y he concluido la licenciatura en Administración de Tecnologías de la Información en la Universidad Insurgentes. Soy una persona apasionada por temas tecnológicos en especial por la programación, es por ello que desde hace dos años he estado en constante aprendizaje en diversos campos de la programación con la finalidad de poder desempeñarme en algún campo tecnológico.</p>
+                <a href="./css/pdf/curriculum.pdf">
                     <button class="btn btn-success title">
-                        <img src="./css/img/cv.png" alt="CV image" class="img-cv">
-                        Ver Curriculum Vitae
+                        <img src="./css/img/curriculum/cv.png" alt="CV image" class="img-cv">
+                        Ver Curriculum
                     </button>
                 </a>
-            </div>
+            </section>
 
-            <div class="skills-container col-lg-6 col-sm-12">
-                <h4 class="title">Mis Habilidades</h4>
-                <div>
-                    <img src="./css/img/html-5.png" alt="skill image" class="img-skill">
-                    <p>HTML</p>
-                </div>
-                <div>
-                    <img src="./css/img/css-3.png" alt="skill image" class="img-skill">
-                    <p>CSS</p>
-                </div>
-                <div>
-                    <img src="./css/img/js.png" alt="skill image" class="img-skill">
-                    <p>JavaScript</p>
-                </div>
-                <div>
-                    <img src="./css/img/python.png" alt="skill image" class="img-skill">
-                    <p>Python</p>
-                </div>
-                <div>
-                    <img src="./css/img/node.png" alt="skill image" class="img-skill">
-                    <p>Node</p>
-                </div>
-                <div>
-                    <img src="./css/img/git.png" alt="skill image" class="img-skill">
-                    <p>Git</p>
-                </div>
-                <div>
-                    <img src="./css/img/github.png" alt="skill image" class="img-skill">
-                    <p>GitHub</p>
-                </div>
-                <div>
-                    <img src="./css/img/mongo.png" alt="skill image" class="img-skill">
-                    <p>Mongo</p>
-                </div>
-                <div>
-                    <img src="./css/img/mysql.png" alt="skill image" class="img-skill">
-                    <p>MySQL</p>
-                </div>
-                <div>
-                    <img src="./css/img/bootstrap.png" alt="skill image" class="img-skill">
-                    <p>Boostrap</p>
-                </div>
-                <div>
-                    <img src="./css/img/typescript.png" alt="skill image" class="img-skill">
-                    <p>TypeScript</p>
-                </div>
-                <div>
-                    <img src="./css/img/JQuery.png" alt="skill image" class="img-skill">
-                    <p>JQuery</p>
-                </div>
-                <div>
-                    <img src="./css/img/flask.png" alt="skill image" class="img-skill">
-                    <p>Flask</p>
-                </div>
-                <div>
-                    <img src="./css/img/react.png" alt="skill image" class="img-skill">
-                    <p>React</p>
-                </div>
-            </div>
 
-            <div class="work-experience col-lg-6 col-sm-12">
+            <section class="certificaciones col-lg-6 col-sm-12">
+              <h4 class="title">Certificaciones</h4>
+              <div id="carrusel-certificaciones" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active css-blue">
+                          <a href="./css/pdf/certificado_master_en_css.pdf" class="d-block">
+                              <img src="./css/img/certificados/css-3.png" class="d-block" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                  <h5>Pulsa para ver</h5>
+                                  <p>Master en CSS: Responsive, SASS, Flexbox, Grid y Bootstrap.</p>
+                              </div>
+                          </a>
+                      </div>
+                      <div class="carousel-item busuu-blue">
+                          <a href="./css/pdf/certificado_busuu_b1.pdf" class="d-block">
+                              <img src="./css/img/certificados/busuu.png" class="d-block" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                  <h5>Pulsa para ver</h5>
+                                  <p>Nivel B1 de inglés en Busuu.</p>
+                              </div>
+                          </a>
+                      </div>
+                      <div class="carousel-item solid-yellow">
+                          <a href="./css/pdf/certificado_solid.pdf" class="d-block">
+                              <img src="./css/img/certificados/clean-code.png" class="d-block" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                  <h5>Pulsa para ver</h5>
+                                  <p>Principios SOLID y Clean Code.</p>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-certificaciones"
+                      data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carrusel-certificaciones"
+                      data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+            </section>
 
+            <section class="work-experience col-lg-6 col-sm-12">
                 <h4 class="title">Experiencia Laboral</h4>
 
                 <h5>Consejo Ciudadano de la CDMX (Noviembre 2022 - Mayo 2023)</h5>
@@ -162,7 +147,7 @@
                 <h5>OSG y Asociados (Parte del 2019 y 2021)</h5>
                 <p>Auxiliar de Oficina y Trato directo con clientes.</p>
                 <ul>
-                    <li>Realizar tareas cotidianas de oficina como ordenar, capturar, analizar e imprimir documentos.</li>
+                    <li>Ordenar, capturar, analizar e imprimir documentos.</li>
                     <li>Visitar a clientes para recoger documentación que se le había solicitado.</li>
                     <li>Entregar y recoger documentos en el Registro Nacional de Población.</li>
                 </ul>
@@ -174,52 +159,75 @@
                     <li>Aseo y limpieza del área de trabajo.</li>
                     <li>Comprar material requerido.</li>
                 </ul>
-            </div>
+            </section>
 
-            <div class="certificaciones col-lg-6 col-sm-12">
-                <h4 class="title">Certificaciones</h4>
-                <div id="carrusel-certificaciones" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active css-blue">
-                            <a href="./css/pdf/certificado_master_en_css.pdf" class="d-block">
-                                <img src="./css/img/css-3.png" class="d-block" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Pulsa para ver</h5>
-                                    <p>Master en CSS: Responsive, SASS, Flexbox, Grid y Bootstrap.</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="carousel-item busuu-blue">
-                            <a href="./css/pdf/certificado_busuu_b1.pdf" class="d-block">
-                                <img src="./css/img/busuu.png" class="d-block" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Pulsa para ver</h5>
-                                    <p>Nivel B1 de inglés en Busuu.</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="carousel-item solid-yellow">
-                            <a href="./css/pdf/certificado_solid.pdf" class="d-block">
-                                <img src="./css/img/clean-code.png" class="d-block" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Pulsa para ver</h5>
-                                    <p>Principios SOLID y Clean Code.</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-certificaciones"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carrusel-certificaciones"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
+            <section class="skills-container col-lg-6 col-sm-12">
+              <h4 class="title">Mis Habilidades</h4>
+              <div>
+                  <img src="./css/img/habilidades/html-5.png" alt="skill image" class="img-skill">
+                  <p>HTML</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/css-3.png" alt="skill image" class="img-skill">
+                  <p>CSS</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/js.png" alt="skill image" class="img-skill">
+                  <p>JavaScript</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/python.png" alt="skill image" class="img-skill">
+                  <p>Python</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/node.png" alt="skill image" class="img-skill">
+                  <p>Node</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/git.png" alt="skill image" class="img-skill">
+                  <p>Git</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/github.png" alt="skill image" class="img-skill">
+                  <p>GitHub</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/mongo.png" alt="skill image" class="img-skill">
+                  <p>Mongo</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/mysql.png" alt="skill image" class="img-skill">
+                  <p>MySQL</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/bootstrap.png" alt="skill image" class="img-skill">
+                  <p>Boostrap</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/JQuery.png" alt="skill image" class="img-skill">
+                  <p>JQuery</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/flask.png" alt="skill image" class="img-skill">
+                  <p>Flask</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/react.png" alt="skill image" class="img-skill">
+                  <p>React</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/angular.png" alt="skill image" class="img-skill">
+                  <p>Angular</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/django.png" alt="skill image" class="img-skill">
+                  <p>Django</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/postman.png" alt="skill image" class="img-skill">
+                  <p>Postman</p>
+              </div>
+          </section>
 
             <div class="portafolio-container">
                 <a name="portafolio">
@@ -227,7 +235,7 @@
                 </a>
                 <p>Aquí encontrarás algunas aplicaciones webs y de escritorio que he realizado.</p>
             </div>
-            <div id="proyectos-web">
+            <section id="proyectos-web">
                 <div class="Carousel">
                     <div class="slick-list" id="slick-list">
                         <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev"
@@ -390,78 +398,6 @@
                                   </div>
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="content">
-                                  <div class="img python-background">
-                                    <img src="./css/img/proyectos/snake-game.png" alt="Snake Game">
-                                  </div>
-                                  <div class="details">
-                                    <div class="name">Snake Game</div>
-                                    <div class="language python-font">Python</div>
-                                  </div>
-                                  <div class="media-icons">
-                                    <a class="python-background" title="GitHub" href="#"><i class="fab fa-github"></i></a>
-                                    <a class="python-background" title="Ejecutar Online" href="¨#"><i class="fab fa-google-play"></i></a>
-                                    <a class="python-background" title="Descargar" href="#"><i class="fab fa-google-drive"></i></a>
-                                  </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="content">
-                                  <div class="img python-background">
-                                    <img src="./css/img/proyectos/turtle.png" alt="Turtle Crossing Game">
-                                  </div>
-                                  <div class="details">
-                                    <div class="name">Turtle Game</div>
-                                    <div class="language python-font">Python</div>
-                                  </div>
-                                  <div class="media-icons">
-                                    <a class="python-background" title="GitHub" href="#"><i class="fab fa-github"></i></a>
-                                    <a class="python-background" title="Ejecutar Online" href="¨#"><i class="fab fa-google-play"></i></a>
-                                    <a class="python-background" title="Descargar" href="#"><i class="fab fa-google-drive"></i></a>
-                                  </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="content">
-                                  <div class="img python-background">
-                                    <img src="./css/img/proyectos/ping-pong.png" alt="Ping Pong Game">
-                                  </div>
-                                  <div class="details">
-                                    <div class="name">Ping Pong Game</div>
-                                    <div class="language python-font">Python</div>
-                                  </div>
-                                  <div class="media-icons">
-                                    <a class="python-background" title="GitHub" href="#"><i class="fab fa-github"></i></a>
-                                    <a class="python-background" title="Ejecutar Online" href="¨#"><i class="fab fa-google-play"></i></a>
-                                    <a class="python-background" title="Descargar" href="#"><i class="fab fa-google-drive"></i></a>
-                                  </div>
-                                </div>
-                            </div>
-
-
-                            <!-- <div class="slick">
-                                <div>
-                                    <a href="https://replit.com/@MiguelEusebio/password-generator#main.py">
-                                        <h4><small>Password Generator</small>Pulsa para ver</h4>
-                                        <picture>
-                                            <img src="./css/img/proyectos/password_generator.JPG" alt="Image">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div> -->
-
-                            <!-- <div class="slick">
-                                <div>
-                                    <a href="https://replit.com/@MiguelEusebio/caesar-cipher-4-start#main.py">
-                                        <h4><small>Caesar Cipher</small>Pulsa para ver</h4>
-                                        <picture>
-                                            <img src="./css/img/proyectos/caesar_cipher.png" alt="Image">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div> -->
-
                         </div>
                         <button class="slick-arrow slick-next" id="button-next" data-button="button-next"
                             onclick="app.processingButton(event)">
@@ -475,7 +411,7 @@
                         </button>
                     </div>
                 </div>
-            </div>
+            </section>
 
 
         </main>
@@ -495,7 +431,7 @@
                             <ul>
                                 <li>
                                     <a href="mailto:miguel.eusebio117@gmail.com">
-                                        <img src="./css/img/gmail.png" alt="gmail">
+                                        <img src="./css/img/contacto/gmail.png" alt="gmail">
                                     </a>
                                     <p>Correo</p>
                                 </li>
@@ -508,8 +444,8 @@
 
                 <div class="creditos">
                     <span>Imagenes tomadas de:</span>
-                    <a href="https://www.freepik.es" title="freepik.es">https://www.freepik.es</a>
-                    <span>y</span>
+                    <!-- <a href="https://www.freepik.es" title="freepik.es">https://www.freepik.es</a>
+                    <span>y</span> -->
                     <a href="https://www.flaticon.com" title="flaticon.com">https://www.flaticon.com</a>
                 </div>
             </div>
@@ -524,7 +460,8 @@
     <script src="./main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
