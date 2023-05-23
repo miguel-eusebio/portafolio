@@ -17,7 +17,7 @@
 }
 
 .busuu-blue {
-    background-color: #116AE8;
+    background-color: #4389eb;
 }
 
 .js-background {
@@ -242,7 +242,7 @@
 }
 
 .work-experience, 
-.certificaciones {
+.skills-container {
     margin-top: 50px;
 }
 
@@ -430,7 +430,6 @@ a{
         padding-right: 0px;
     }
 
-
 }
 
 @media (max-width: 414px) {
@@ -540,16 +539,3 @@ a{
     background-color: #fff;
     border-color: rgb(1, 148, 1);
 }
-
-  /* @media (max-width: 768px) {
-    .card{
-      margin: 20px 0 10px 0;
-      width: calc(100% / 2 - 10px);
-    }
-  }
-  @media (max-width: 600px) {
-    .card{
-      margin: 20px 0 10px 0;
-      width: 100%;
-    }
-  } */
