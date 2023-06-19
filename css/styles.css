@@ -5,6 +5,7 @@
     --js-color: #e0d20a;
     --python-color: rgb(40, 113, 138);
     --node-color: #7DBE42;
+    --php-color: #777BB3;
 }
 
 /* COLORES GENERALES */
@@ -23,6 +24,11 @@
 .js-background {
     /* #FFDF00 */
     background-color: var(--js-color);
+}
+
+.php-background {
+    /* #FFDF00 */
+    background-color: var(--php-color);
 }
 
 .brain-pink {
@@ -47,6 +53,10 @@
 
 .node-font {
     color: var(--node-color);
+}
+
+.php-font {
+    color: var(--php-color);
 }
 
 /* ENCABEZADO */
@@ -538,4 +548,10 @@ a{
     color: var(--node-color);
     background-color: #fff;
     border-color: rgb(1, 148, 1);
+}
+
+.media-icons .php-background:hover{
+    color: var(--php-color);
+    background-color: #fff;
+    border-color: #5a5e9c;
 }
