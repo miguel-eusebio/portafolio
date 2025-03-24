@@ -11,7 +11,11 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">  
+  </head>
 
 <body>
 
@@ -51,20 +55,17 @@
                 </nav>
             </div>
 
-            <div id="header-wrap">
-                <div class="header-content">
-                    <img class="img-programming" src="./css/img/inicio/programming.png" alt="">
-                    <div class="texto-encima">
-                        <div class="img-perfil_container">
-                            <img class="img-perfil" src="./css/img/inicio/perfil_photo.jpg" alt="">
-                        </div>
-                        
-                        <h5>¡Hola!</h5>
-                        <h2>Soy Miguel Eusebio</h2>
-                        <h5>Programador</h5>
-                    </div>
-                </div>
-            </div>
+            <div class="presentacion-wrap">
+              <div class="contenedor-texto">
+                  <h5>¡Hola!</h5>
+                  <h2>Soy Miguel Eusebio</h2>
+                  <h5>Desarrollador JR y Futuro Data Science</h5>
+              </div>
+              
+              <div class="contenedor-imagen">
+                  <img class="img-perfil" src="./css/img/inicio/perfil_portafolio.jpg" alt="Foto de perfil">
+              </div>
+          </div>
 
         </header>
 
@@ -78,8 +79,7 @@
             </a>
             <section class="introduction-container col-lg-6 col-sm-12">
                 <h4 class="title">¿Quien soy?</h4>
-                <h5 class="mt-3">Soy Miguel Vazquez Eusebio programador autodidacta.</h5>
-                <p class="mt-3">Tengo 23 años y he concluido la licenciatura en Administración de Tecnologías de la Información en la Universidad Insurgentes. Soy una persona apasionada por temas tecnológicos en especial por la programación, es por ello que desde hace dos años he estado en constante aprendizaje en diversos campos de la programación con la finalidad de poder desempeñarme en algún campo tecnológico.</p>
+                <p class="mt-3">Tengo 25 años, egresado de la Universidad Insurgentes con la licenciatura en Administración de Tecnologías de la Información. Soy un apasionado de la tecnología, con un fuerte interés en la programación y el análisis de datos. A lo largo de los últimos años, me he dedicado a un aprendizaje continuo en estas áreas, fortaleciendo mis habilidades tanto en desarrollo de software como en el procesamiento y análisis de datos. Actualmente, me desempeño como Analista Financiero (CPM) en una firma de consultoría, donde aplico mis conocimientos para optimizar procesos y generar insights estratégicos. Paralelamente, en mi tiempo libre, estudio temas relacionados con el analisis de datos, explorando técnicas  de análisis, modelado y visualización de datos para expandir mis capacidades en el campo de la analítica y la toma de decisiones basadas en datos.</p>
                 <a href="./css/pdf/curriculum.pdf">
                     <button class="btn btn-success title">
                         <img src="./css/img/curriculum/cv.png" alt="CV image" class="img-cv">
@@ -93,6 +93,24 @@
               <h4 class="title">Certificaciones</h4>
               <div id="carrusel-certificaciones" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-inner">
+                    <div class="carousel-item solid-yellow">
+                        <a href="./css/pdf/certificado_solid.pdf" class="d-block">
+                            <img src="./css/img/certificados/clean-code.png" class="d-block" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Pulsa para ver</h5>
+                                <p>Principios SOLID y Clean Code.</p>
+                            </div>
+                        </a>
+                    </div>                    
+                    <div class="carousel-item js-background">
+                        <a href="./css/pdf/certificado_master_javascript.pdf" class="d-block">
+                            <img src="./css/img/certificados/java-script.png" class="d-block" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Pulsa para ver</h5>
+                                <p>Master en JavaScript: Aprender JS, jQuery, Angular, NodeJS.</p>
+                            </div>
+                        </a>
+                    </div>                    
                       <div class="carousel-item active css-blue">
                           <a href="./css/pdf/certificado_master_en_css.pdf" class="d-block">
                               <img src="./css/img/certificados/css-3.png" class="d-block" alt="...">
@@ -111,15 +129,6 @@
                               </div>
                           </a>
                       </div>
-                      <div class="carousel-item solid-yellow">
-                          <a href="./css/pdf/certificado_solid.pdf" class="d-block">
-                              <img src="./css/img/certificados/clean-code.png" class="d-block" alt="...">
-                              <div class="carousel-caption d-none d-md-block">
-                                  <h5>Pulsa para ver</h5>
-                                  <p>Principios SOLID y Clean Code.</p>
-                              </div>
-                          </a>
-                      </div>
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-certificaciones"
                       data-bs-slide="prev">
@@ -134,35 +143,8 @@
               </div>
             </section>
 
-            <section class="work-experience col-lg-6 col-sm-12">
-                <h4 class="title">Experiencia Laboral</h4>
-
-                <h5>Consejo Ciudadano de la CDMX (Noviembre 2022 - Mayo 2023)</h5>
-                <p>Desarrollo de Software y Auxiliar de Soporte Técnico</p>
-                <ul>
-                    <li>Desarrollar aplicaciones con Python.</li>
-                    <li>Mantenimiento a equipos de computo e impresoras (Software y Hardware).</li>
-                </ul>
-
-                <h5>OSG y Asociados (Parte del 2019 y 2021)</h5>
-                <p>Auxiliar de Oficina y Trato directo con clientes.</p>
-                <ul>
-                    <li>Ordenar, capturar, analizar e imprimir documentos.</li>
-                    <li>Visitar a clientes para recoger documentación que se le había solicitado.</li>
-                    <li>Entregar y recoger documentos en el Registro Nacional de Población.</li>
-                </ul>
-
-                <h5>Local de Ventas (Vacaciones de Invierno 2015 - 2018)</h5>
-                <p>Auxiliar en Ventas Fotograficas.</p>
-                <ul>
-                    <li>Atender a los clientes.</li>
-                    <li>Aseo y limpieza del área de trabajo.</li>
-                    <li>Comprar material requerido.</li>
-                </ul>
-            </section>
-
             <section class="skills-container col-lg-6 col-sm-12">
-              <h4 class="title">Mis Habilidades</h4>
+              <h4 class="title">Mis Habilidades: Desarrollo de Software</h4>
               <div>
                   <img src="./css/img/habilidades/html-5.png" alt="skill image" class="img-skill">
                   <p>HTML</p>
@@ -174,10 +156,6 @@
               <div>
                   <img src="./css/img/habilidades/js.png" alt="skill image" class="img-skill">
                   <p>JavaScript</p>
-              </div>
-              <div>
-                  <img src="./css/img/habilidades/python.png" alt="skill image" class="img-skill">
-                  <p>Python</p>
               </div>
               <div>
                   <img src="./css/img/habilidades/node.png" alt="skill image" class="img-skill">
@@ -192,20 +170,16 @@
                   <p>GitHub</p>
               </div>
               <div>
-                  <img src="./css/img/habilidades/mongo.png" alt="skill image" class="img-skill">
-                  <p>Mongo</p>
-              </div>
-              <div>
-                  <img src="./css/img/habilidades/mysql.png" alt="skill image" class="img-skill">
-                  <p>MySQL</p>
-              </div>
-              <div>
                   <img src="./css/img/habilidades/bootstrap.png" alt="skill image" class="img-skill">
                   <p>Boostrap</p>
               </div>
               <div>
                   <img src="./css/img/habilidades/JQuery.png" alt="skill image" class="img-skill">
                   <p>JQuery</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/django.png" alt="skill image" class="img-skill">
+                  <p>Django</p>
               </div>
               <div>
                   <img src="./css/img/habilidades/flask.png" alt="skill image" class="img-skill">
@@ -220,12 +194,36 @@
                   <p>Angular</p>
               </div>
               <div>
-                  <img src="./css/img/habilidades/django.png" alt="skill image" class="img-skill">
-                  <p>Django</p>
+                <img src="./css/img/habilidades/mongodb.png" alt="skill image" class="img-skill">
+                <p>Mongo</p>
+            </div>              
+          </section>
+
+            <section class="skills-container col-lg-6 col-sm-12">
+              <h4 class="title">Mis Habilidades: Manejo y Analisis de Datos</h4>
+              <div>
+                  <img src="./css/img/habilidades/python.png" alt="skill image" class="img-skill">
+                  <p>Python</p>
               </div>
               <div>
-                  <img src="./css/img/habilidades/php.png" alt="skill image" class="img-skill">
-                  <p>PHP</p>
+                  <img src="./css/img/habilidades/excel.png" alt="skill image" class="img-skill">
+                  <p>Excel</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/visual-basic.png" alt="skill image" class="img-skill">
+                  <p>Visual Basic</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/powerbi.png" alt="skill image" class="img-skill">
+                  <p>Power BI</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/sql-server.png" alt="skill image" class="img-skill">
+                  <p>SQL</p>
+              </div>
+              <div>
+                  <img src="./css/img/habilidades/pandas.png" alt="skill image" class="img-skill">
+                  <p>Pandas</p>
               </div>
           </section>
 
@@ -233,7 +231,7 @@
                 <a name="portafolio">
                     <h3 class="title texto-separado">Portafolio</h3>
                 </a>
-                <p>Aquí encontrarás algunas aplicaciones webs y de escritorio que he realizado.</p>
+                <p>Aquí encontrarás algunas aplicaciones y codigos que he realizado.</p>
             </div>
             <section id="proyectos-web">
                 <div class="Carousel">
